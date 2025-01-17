@@ -11,12 +11,12 @@ public class If : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space))
-        TemperatureTest();
+        TempTest();
 
         coffeeTemp -= Time.deltaTime * 5f;
     }
 
-    void TemperatureTest()
+    void TempTest()
     {
         if(coffeeTemp > hotLimitTemp)
         {
